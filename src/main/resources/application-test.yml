@@ -1,0 +1,6 @@
+##应用名称，启动端口配置 begin
+server:
+  application:
+    name: springTest
+  port: 8080
+##应用名称，启动端口配置 end

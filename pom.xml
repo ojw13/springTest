@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>springTest</groupId>
+    <artifactId>springTest</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <snakeyaml.version>1.23</snakeyaml.version>
+        <spring-boot-autoconfigure.version>2.1.4.RELEASE</spring-boot-autoconfigure.version>
+        <spring-boot-starter.version>2.1.4.RELEASE</spring-boot-starter.version>
+        <spring-boot-starter-tomcat.version>2.1.4.RELEASE</spring-boot-starter-tomcat.version>
+        <spring-boot-starter-web.version>2.1.4.RELEASE</spring-boot-starter-web.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>${spring-boot-autoconfigure.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>${snakeyaml.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>${spring-boot-starter.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <version>${spring-boot-starter-tomcat.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring-boot-starter-web.version}</version>
+        </dependency>
+    </dependencies>
+</project>
