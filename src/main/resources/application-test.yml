@@ -4,3 +4,22 @@ server:
     name: springTest
   port: 8080
 ##应用名称，启动端口配置 end
+##数据库配置begin
+spring:
+  application:
+    name: springTest
+  datasource:
+    username: jianghaimin
+    password: Jhm12345*
+    url: jdbc:mysql://114.67.74.124:3306/springTest?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+##数据库配置end
+####mybatis配置begin
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapperconfig/*.xml
+logging:
+  config: classpath:config/logback-spring.xml
+  level:
+     com : debug
+####mybatis配置endlogback-spring.xml
