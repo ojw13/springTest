@@ -1,6 +1,5 @@
 package com.ojw.java8.bean;
 
-import jdk.nashorn.internal.objects.annotations.Function;
 import lombok.Builder;
 import lombok.ToString;
 
