@@ -201,7 +201,7 @@ public class HttpClientUtil {
 	}
 
 
-    public static void main(String[] args) throws Exception {
+//    public static void main(String[] args) throws Exception {
 //	    String ybduUrl = "https://m.ybdu.com";
 //	    String url = ybduUrl+"/book1/0/1/";//212
 //        //获取正文
@@ -224,7 +224,7 @@ public class HttpClientUtil {
 //
 //
 //        getAgentData("/xiaoshuo/23/23407/10372716.html",1,1548,"末世全能剑神TXT");
-    }
+//    }
 
     public static String getAgentData(){
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");

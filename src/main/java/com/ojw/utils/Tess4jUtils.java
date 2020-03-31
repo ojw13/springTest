@@ -5,6 +5,7 @@ import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 import net.sourceforge.tess4j.util.ImageHelper;
 import net.sourceforge.tess4j.util.LoadLibs;
+import org.junit.Test;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -72,7 +73,8 @@ public class Tess4jUtils {
         return result;
     }
 
-    public static void main(String[] args) throws Exception {
+    @Test
+    public void test() throws Exception {
         /*String path = "src/main/resources/image/text.png";
         System.out.println(readChar(path));*/
 
