@@ -1,12 +1,15 @@
 package com.ojw.java8.bean;
 
 import lombok.Builder;
+import lombok.Data;
 import lombok.ToString;
 
 /**
- * Created by Administrator on 2020/3/31 0031.
+ *
+ * @author ojw
+ * @date 2020/3/31 0031
  */
-
+@Data
 @ToString
 @Builder
 public class TestBean {
