@@ -1,6 +1,5 @@
-package com.ojw.java8.test;
+package com.java8.test;
 
-import com.ojw.java8.bean.TestBean;
 import org.junit.Test;
 
 import java.lang.reflect.Field;

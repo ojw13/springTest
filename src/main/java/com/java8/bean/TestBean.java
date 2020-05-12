@@ -1,7 +1,6 @@
-package com.ojw.java8.bean;
+package com.java8.bean;
 
 import com.ojw.annotation.ResultCode;
-import lombok.Builder;
 import lombok.Data;
 import lombok.ToString;
 
@@ -9,7 +8,6 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
-import java.io.Serializable;
 
 /**
  *

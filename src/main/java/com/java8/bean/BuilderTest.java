@@ -1,4 +1,4 @@
-package com.ojw.java8.bean;
+package com.java8.bean;
 
 import java.util.ArrayList;
 import java.util.List;

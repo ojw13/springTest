@@ -1,6 +1,6 @@
 package com.ojw.controller;
 
-import com.ojw.java8.bean.TestBean;
+import com.ojw.bean.vo.TestBean;
 import com.ojw.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;

@@ -1,4 +1,4 @@
-package com.ojw.java8.bean.vo;
+package com.java8.bean.vo;
 
 import lombok.Data;
 

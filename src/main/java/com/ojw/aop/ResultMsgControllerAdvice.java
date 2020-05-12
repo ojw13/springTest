@@ -1,7 +1,7 @@
 package com.ojw.aop;
 
 import com.ojw.annotation.ResultCode;
-import com.ojw.java8.bean.vo.ResultVO;
+import com.java8.bean.vo.ResultVO;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
