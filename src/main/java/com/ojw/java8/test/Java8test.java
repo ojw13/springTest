@@ -17,14 +17,14 @@ public class Java8test {
 
     @Test
     public void test1() throws Exception{
-        //builder 使用
-        TestBean testBean = TestBean.builder()
-                .age(1)
-                .name("张三")
-                .sex("女")
-                .uid(1)
-                .build();
-        System.out.println(testBean);
+//        //builder 使用
+//        TestBean testBean = TestBean.builder()
+//                .age(1)
+//                .name("张三")
+//                .sex("女")
+//                .uid(1)
+//                .build();
+//        System.out.println(testBean);
 
     }
     
