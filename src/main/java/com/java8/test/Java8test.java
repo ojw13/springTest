@@ -4,6 +4,9 @@ import org.junit.Test;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,14 +19,12 @@ public class Java8test {
 
     @Test
     public void test1() throws Exception{
-//        //builder 使用
-//        TestBean testBean = TestBean.builder()
-//                .age(1)
-//                .name("张三")
-//                .sex("女")
-//                .uid(1)
-//                .build();
-//        System.out.println(testBean);
+        LocalDateTime ldt = LocalDateTime.now(ZoneOffset.of("+8"));
+        System.out.println(LocalDateTime.now().minusMinutes(-5).toInstant(ZoneOffset.of("+8")).toEpochMilli());
+        System.out.println(LocalDateTime.now().toInstant(ZoneOffset.of("+8")).toEpochMilli());
+        System.out.println(System.currentTimeMillis());
+        System.out.println(LocalDate.now().toString());
+
 
     }
     

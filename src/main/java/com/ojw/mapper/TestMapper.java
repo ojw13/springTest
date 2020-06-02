@@ -2,7 +2,7 @@ package com.ojw.mapper;
 
 import com.ojw.bean.po.Test;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+
 
 import java.util.List;
 
@@ -14,6 +14,5 @@ import java.util.List;
 @Mapper
 public interface TestMapper {
 
-    @Select("select * from test limit 100")
-    List<Test> findTestList();
+    List<Test> findAll();
 }

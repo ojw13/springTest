@@ -9,7 +9,8 @@ import java.lang.annotation.Target;
  * Created by Administrator on 2020/5/9 0009.
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.FIELD}) // 表明该注解只能放在类的字段上
+// 表明该注解只能放在类的字段上
+@Target({ElementType.FIELD})
 public @interface ResultCode {
     // 响应码code
     int value() default 100000;

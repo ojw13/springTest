@@ -201,8 +201,14 @@ public class HttpClientUtil {
 	}
 
 
-//    public static void main(String[] args) throws Exception {
-//	    String ybduUrl = "https://m.ybdu.com";
+    public static void main(String[] args) throws Exception {
+	    String jt_url = "http://www.cxyxiaowu.com/soup.html";
+        String html = HttpClientUtil.doGet(jt_url);
+        String title =  html.substring(html.indexOf("class=\"text\"")+13,html.indexOf("</p>"));
+        System.out.println(html);
+        System.out.println(title);
+
+        //	    String ybduUrl = "https://m.ybdu.com";
 //	    String url = ybduUrl+"/book1/0/1/";//212
 //        //获取正文
 //        String txt = myCms.substring(myCms.indexOf("id=\"txt\">"),myCms.indexOf("</div>"));
@@ -224,7 +230,7 @@ public class HttpClientUtil {
 //
 //
 //        getAgentData("/xiaoshuo/23/23407/10372716.html",1,1548,"末世全能剑神TXT");
-//    }
+    }
 
     public static String getAgentData(){
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");

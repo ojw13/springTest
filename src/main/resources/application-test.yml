@@ -11,8 +11,11 @@ spring:
   datasource:
     username: jianghaimin
     password: Jhm12345*
-    url: jdbc:mysql://114.67.74.124:3306/springTest?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://114.67.74.124:3306/springTest?useUnicode=true&characterEncoding=UTF-8&useSSL=false&?serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
 ##数据库配置end
 ####mybatis配置begin
 mybatis:

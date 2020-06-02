@@ -4,7 +4,6 @@ import com.ojw.bean.vo.TestBean;
 import com.ojw.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,10 +25,10 @@ public class Testcontroller {
     @RequestMapping("/t1")
     public String testList(@RequestBody @Valid TestBean testBean, BindingResult bindingResult)throws Exception{
         // 如果有参数校验失败，会将错误信息封装成对象组装在BindingResult里
-        for (ObjectError error : bindingResult.getAllErrors()) {
-            return error.getDefaultMessage();
-        }
-        throw new Exception("aldhfjaisdfhaskdj");
+//        for (ObjectError error : bindingResult.getAllErrors()) {
+//            return error.getDefaultMessage();
+//        }
+        return  testService.findTestList().toString();
 //        return "成功";
     }
 }
