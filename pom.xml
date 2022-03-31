@@ -26,7 +26,7 @@
         <spring-boot-autoconfigure.version>2.1.4.RELEASE</spring-boot-autoconfigure.version>
         <spring-boot-starter.version>2.1.4.RELEASE</spring-boot-starter.version>
         <spring-boot-starter-tomcat.version>2.1.4.RELEASE</spring-boot-starter-tomcat.version>
-        <spring-boot-starter-web.version>2.1.4.RELEASE</spring-boot-starter-web.version>
+        <spring-boot-starter-web.version>2.5.12</spring-boot-starter-web.version>
         <mybatis-spring-boot-starter.version>2.0.0</mybatis-spring-boot-starter.version>
         <pagehelper-spring-boot-starter.version>1.2.10</pagehelper-spring-boot-starter.version>
         <!--mysql-->
