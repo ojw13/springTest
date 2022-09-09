@@ -22,7 +22,7 @@
         </plugins>
     </build>
     <properties>
-        <snakeyaml.version>1.23</snakeyaml.version>
+        <snakeyaml.version>1.26</snakeyaml.version>
         <spring-boot-autoconfigure.version>2.1.4.RELEASE</spring-boot-autoconfigure.version>
         <spring-boot-starter.version>2.1.4.RELEASE</spring-boot-starter.version>
         <spring-boot-starter-tomcat.version>2.1.4.RELEASE</spring-boot-starter-tomcat.version>
